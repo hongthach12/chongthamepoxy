@@ -254,7 +254,7 @@
   
         <?php
             foreach($loadHtml as $htmlFile) {
-                include($htmlFile);
+                @include($htmlFile);
             }
         ?>
 
