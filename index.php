@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/bundle.css">
     <link rel="stylesheet" href="css/hody-icons.css">
     <link rel="stylesheet" href="css/style.css">
@@ -137,6 +137,13 @@
             }
         }
     </style>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
@@ -146,9 +153,19 @@
     <?php 
             $fb = "https://www.facebook.com/ChongThamSonNuocEpoxyHaNam/";
             $uri = $_SERVER['REQUEST_URI'];
-           
+            $loadHtml = [];
+            if ($uri == '/san-pham') {
+                $loadHtml = [
+                    "html/products.php"
+                ];
+            } else {
+                $loadHtml = [
+                    "html/slider.html",
+                    "html/home.html"
+                ];
+            }
         ?>
-
+        
     <!-- Loader end -->
     <div id="loader">
         <div class="centrize">
@@ -181,9 +198,9 @@
                 <div class="container">
                     <div class="logo">
                         <a href="/">
-                            <img class="logo-light" src="images/logoHN.jpg" alt="">
+                            <img class="logo-light" src="images/logo.jpg" alt="">
                             <!--style="-webkit-filter: drop-shadow(1px 1px 1px #000); filter: drop-shadow(1px 1px 1px #000);"-->
-                            <img class="logo-dark" src="images/logoHN.jpg" alt="">
+                            <img class="logo-dark" src="images/logo.jpg" alt="">
                             <!--style="-webkit-filter: drop-shadow(1px 1px 1px #000); filter: drop-shadow(1px 1px 1px #000);"-->
                         </a>
                     </div>
@@ -219,12 +236,12 @@
                     </div>
                     <div id="navigation">
                         <ul class="navigation-menu nav">
-                            <li class="active"><a href="/trang-chu">TRANG CHỦ</a></li>
-                            <li class=""><a href="/">SẢN PHẨM</a></li>
-                            <li class=""><a href="/">DỊCH VỤ</a></li>
-                            <li class=""><a href="/">GIẢI PHÁP</a></li>
-                            <li class=""><a href="/">DỰ ÁN</a></li>
-                            <li class=""><a href="/">LIÊN HỆ</a></li>
+                            <li class="<?php echo $uri == '/trang-chu' ? 'active' : ''; ?>" ><a href="/trang-chu">TRANG CHỦ</a></li>
+                            <li class="<?php echo $uri == '/san-pham' ? 'active' : ''; ?>"><a href="/san-pham">SẢN PHẨM</a></li>
+                            <li class="<?php echo $uri == '/dich-vu' ? 'active' : ''; ?>"><a href="/dich-vu">DỊCH VỤ</a></li>
+                            <li class="<?php echo $uri == '/giai-phap' ? 'active' : ''; ?>"><a href="/giai-phap">GIẢI PHÁP</a></li>
+                            <li class="<?php echo $uri == '/du-an' ? 'active' : ''; ?>"><a href="/du-an">DỰ ÁN</a></li>
+                            <li class="<?php echo $uri == '/lien-het' ? 'active' : ''; ?>"><a href="/line-he">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -236,9 +253,8 @@
         <!-- HEADER -->
   
         <?php
-            if($uri == '/trang-chu' || $uri == '/') {
-                include ("html/slider.html");
-                include ("html/home.html");
+            foreach($loadHtml as $htmlFile) {
+                include($htmlFile);
             }
         ?>
 
@@ -253,7 +269,7 @@
                         <div class="col-md-12">
                             <div class="widget">
                                 <figure class="footer-logo mb-15">
-                                    <img src="images/logoHN.jpg" alt="" style="width: 120px;">
+                                    <img src="images/logo.jpg" alt="" style="width: 120px;">
                                 </figure>
                                 <div class="textwidget">
                                     <p style="color: #333;font-size:12px;">Uy Tín - Chất Lượng - Ưu Việt -  Tận Tâm</p>
@@ -290,13 +306,7 @@
         </footer> <!-- END FOOTER -->
 
     </div>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bundle.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-    <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    
 </body>
 
 
