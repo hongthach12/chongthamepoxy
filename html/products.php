@@ -565,7 +565,7 @@
                             <h3><a href="#"><?php echo $product['name'] ?></a></h3>
                             <p> <p><?php echo $product['description']; ?></p>
                             <p style="text-align: left;"><?= isset($product['li']) ? $product['li'] : ""; ?></p>
-                            <?php if(!empty(product['file_pdf'])) {?>
+                            <?php if(!empty($product['file_pdf'])) {?>
                             <div class="add-to-cart-btn"><a target="_blank" href="<?php echo $product['file_pdf']; ?>"><i class="hc-color-filter"></i><span>Chi tiết</span></a>
                             
                             </div>
