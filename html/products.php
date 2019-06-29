@@ -485,7 +485,55 @@
             //     "file_pdf" => "pdf/Davco_K10_Polyurethane_Plus_Datasheet_Vn.pdf"
             // ],
         ],
-        "son-expoxy" => [],
+        "son-expoxy" => [
+            [
+                "name" => "KCC - Epoxy EP118-Clear",
+                "description" => "là sự kết hợp chuỗi nhựa amid với hạt nhựa Epoxy, dùng làm chất kết dính và mau khô với khã năng ngăn ngừa hoàn hảo các hóa chất và nước. EP118 cung cấp khã năng bám dính tuyệt đối đến hầu hết các bề mặt nền bao gồm bê tông, gỗ, thép v.v… EP118 bảo đảm chống thấm và chống gỉ sét tuyệt đối giữa lớp bê tông và lớp sơn phủ tiếp theo. Đạt thông số ASTM C309 TYPE I ' Moisture Retention of Conrete'.",
+                "li" => "
+                • Đóng gói 16 L 
+                ",
+                "image" => "products/koreton_pro.jpg",
+                "file_pdf" => ""
+            ],
+            [
+                "name" => "KCC - Unipoxy L",
+                "description" => "là loại sơn hai thành phần, là gốc nhựa epoxy kết hợp với acid amine(  chất phụ gia đóng rắn ), khả năng tự làm phẳng, không sử dụng dung môi, thân thiện với môi trường. Sơn Unipoxy Lining không để lại bọt trong quá trình tự làm phẳng. Ngoài ra, có tính chất bền chắc, dẻo dai, tính kháng dung môi cao, hạn chế trầy sước và chịu va đập cao",
+                "li" => "
+                • Đóng gói 16 L Đóng gói: 16L ( TPA=12L: TPB 4l, tỷ lệ 3:1)
+                ",
+                "image" => "products/Unipoxy1.jpg",
+                "file_pdf" => ""
+            ],
+            [
+                "name" => "KCC - ET5660",
+                "description" => "là loại sơn epoxy hai thành phần, dựa trên nguồn gốc oxy hóa nhựa epoxy với độ bóng cao. KCC ET5660 cứng và bám chắc hoàn hảo để chống thấm nước, chống trầy xướt.",
+                "li" => "
+                • Đóng gói 16 L ( PTA : PTB = 10.7 L : 5.3 L )
+                ",
+                "image" => "products/ET5660.jpg",
+                "file_pdf" => ""
+            ],
+            [
+                "name" => "KCC - ET5500",
+                "description" => "là sơn epoxy chống acid 2 thành phần, hệ tự trải phẳng, nó có khả năng kháng acid, kháng hóa chất.v.v và là sản phẩm thân thiện với môi trường. Độ cứng tuyệt hảo, chịu mài mòn cao, chống va đập và độ bền cực cao, là một sản phẩm tuyệt vời.",
+                "li" => "
+                • Đóng gói: 16 L ( PTA : PTB = 11 L : 5 L )
+                ",
+                "image" => "products/ET5500.jpg",
+                "file_pdf" => ""
+            ],
+            [
+                "name" => "KCC - Unipoxy Anti-stati",
+                "description" => "là loại sơn epoxy 2 thành phần, sơn chống tĩnh điện gốc epoxy/polymide được áp dụng trong các nhà máy sản xuất điện tử hoàn thiện chống điện tử. Là vật liệu ngăn chặn sự gắn kết bụi với trần nhà bởi tĩnh điện, tích điện và phóng điện. Khi thi công phải kết hợp nhiều dòng sản phẩm khác, mục đích của việc thi công sơn chống tĩnh điện KCC - Unipoxy Anti-static là không muốn những tai nạn xảy ra tại những nơi làm việc công ty điện tử, sản xuất linh kiện",
+                "li" => "
+                • Đóng gói: 16 L ( PTA : PTB = 11 L : 5 L )
+                ",
+                "image" => "products/ET5500.jpg",
+                "file_pdf" => ""
+            ],
+            
+        ],
+        
         // "hoa-chat" => [],
     ];
     $map = [
