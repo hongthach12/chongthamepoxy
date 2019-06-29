@@ -173,10 +173,6 @@
     }
 </style>
 <?php
-    
-    
-    
-    
     $categories = [
         
         "son-trang-tri" => [
@@ -482,15 +478,20 @@
                 "image" => "products/651.jpg",
                 "file_pdf" => "pdf/CATALOGUE_MAXCRETE_651_2016A.pdf"
             ],
-            [
-                "name" => "DAVCO K10 POLYURETHANE PLUS",
-                "description" => "Chống thấm PU gốc Acrylic 1 thành phần tường đứng",
-                "image" => "",
-                "file_pdf" => "pdf/Davco_K10_Polyurethane_Plus_Datasheet_Vn.pdf"
-            ],
+            // [
+            //     "name" => "DAVCO K10 POLYURETHANE PLUS",
+            //     "description" => "Chống thấm PU gốc Acrylic 1 thành phần tường đứng",
+            //     "image" => "",
+            //     "file_pdf" => "pdf/Davco_K10_Polyurethane_Plus_Datasheet_Vn.pdf"
+            // ],
         ],
         "son-expoxy" => [],
-        "hoa-chat" => [],
+        // "hoa-chat" => [],
+    ];
+    $map = [
+        "son-trang-tri" => "Sơn Trang Trí",
+        "son-expoxy" =>  "Sơn Epoxy",
+        "chong-tham" => "Chống Thấm"
     ];
 ?>
 <main style="padding-top: 80px;">
@@ -546,11 +547,17 @@
 
 <section class="grey-bg">
     <div class="container">
-        <div class="row">
-        <?php
+    <?php
         
         foreach($categories as $key => $category) {
         ?>
+        <div class="title">
+                    <h6><?= $map[$key] ?></h6>
+                    <hr>
+
+                </div>
+        <div class="row">
+       
             <div class="products-row columns-4 tab-product" id="<?= $key?>" >
                 <?php foreach($category as $product) {  ?>
                 <div class="product-col">
@@ -575,9 +582,10 @@
                 </div>
                 <?php } ?>
             </div>
-        <?php } ?>
             
         </div>
+        <?php } ?>
+
     </div>
 </section>
 <script>

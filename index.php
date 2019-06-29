@@ -137,13 +137,7 @@
             }
         }
     </style>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bundle.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-    <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    
 </head>
 
 <body>
@@ -158,7 +152,11 @@
                 $loadHtml = [
                     "html/products.php"
                 ];
-            } else {
+            } else if($uri == '/lien-he') {
+                $loadHtml = [
+                    "html/contact.php"
+                ];
+            }  else {
                 $loadHtml = [
                     "html/slider.html",
                     "html/home.html"
@@ -241,7 +239,7 @@
                             <li class="<?php echo $uri == '/dich-vu' ? 'active' : ''; ?>"><a href="/dich-vu">DỊCH VỤ</a></li>
                             <li class="<?php echo $uri == '/giai-phap' ? 'active' : ''; ?>"><a href="/giai-phap">GIẢI PHÁP</a></li>
                             <li class="<?php echo $uri == '/du-an' ? 'active' : ''; ?>"><a href="/du-an">DỰ ÁN</a></li>
-                            <li class="<?php echo $uri == '/lien-het' ? 'active' : ''; ?>"><a href="/line-he">LIÊN HỆ</a></li>
+                            <li class="<?php echo $uri == '/lien-het' ? 'active' : ''; ?>"><a href="/lien-he">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -308,7 +306,13 @@
     </div>
     
 </body>
-
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bundle.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 <!-- Mirrored from kccpaint.com.my/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jun 2019 02:58:05 GMT -->
 
