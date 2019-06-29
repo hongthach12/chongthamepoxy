@@ -80,7 +80,7 @@
                         <p style="color: #333;"><b>Công Ty TNHH Xây Dựng Và Thương Mại HANAM</b></p>
                         <p style="color: #333;"><b>Địa chỉ</b> : 22 Bùi Thị Xuân, Phường 2, Đông Hà, Quảng Trị</p>
                         <p style="color: #333;"><b>Hotline</b> : 0973733012 (Mr.Nam)</p>
-                        <p style="color: #333;"><b>Email</b> : kcc@kccpaint.com.my</p>
+                        <p style="color: #333;"><b>Email</b> : chongtham.sonnuoc.epoxy.hanam@gmail.com</p>
                     </div>                                              
                 </div>
             </div>
