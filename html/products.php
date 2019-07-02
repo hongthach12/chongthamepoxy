@@ -185,7 +185,7 @@
                 • Độ bám dính cao <br>
                 ",
                 "image" => "products/400.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/2._Koresil_400.pdf"
             ],
             [
                 "name" => "Koresil 450",
@@ -195,7 +195,7 @@
                 • Sức đề kháng tốt
                 ",
                 "image" => "products/450.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/4._Koresil_450.pdf"
             ],
             [
                 "name" => "Wall Sealer 500",
@@ -208,7 +208,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/500.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/7._Wall_Sealer_500.pdf"
             ],
             [
                 "name" => "AURORA Matt",
@@ -223,7 +223,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/auroa_matt.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/9a._KCC_AURORA_Matt__TDS_2018_-1.pdf"
             ],
             [
                 "name" => "Korevon Silk ",
@@ -236,7 +236,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/korervom-sill.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/5._Korevon_Silk.pdf"
             ],
             [
                 "name" => "AURORA Sheen ",
@@ -251,7 +251,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/aurora_sheen.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/9b._KCC_AURORA_Sheen__TDS_2018_-1.pdf"
             ],
             
             [
@@ -263,7 +263,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/koreton_pro.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/12._Koreton_Pro.pdf"
             ],
             [
                 "name" => "Koreton Plus",
@@ -276,7 +276,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/koreton_plus.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/2._Koreton_Plus.pdf"
             ],
             
             [
@@ -289,7 +289,7 @@
                 • Bảo trì dễ dàng
                 ",
                 "image" => "products/Korevon-Ezy-Clean.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/3._Korevon_Ezy-Clean.pdf"
             ],
             [
                 "name" => "Korevon Spotless All-In-1",
@@ -303,7 +303,7 @@
                 • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/Korevon-spotless.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/6._Korevon_Spotless_All-In-1.pdf"
             ],
             [
                 "name" => "AURORA Prestige",
@@ -319,7 +319,7 @@
                     • Đóng gói : 1L / 5L / 18L
                 ",
                 "image" => "products/auroa_pres.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/13._KCC_AURORA_Prestige.pdf"
             ],
             [
                 "name" => "Vinyl Fresh",
@@ -334,7 +334,7 @@
                 • Đóng gói : 1L / 5L / 15L
                 ",
                 "image" => "products/Vinyl-Fresh.jpg",
-                "file_pdf" => ""
+                "file_pdf" => "pdf/7._Vinyl_Fresh.pdf"
             ],
             [
                 "name" => "Vinyl Glow",
