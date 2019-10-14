@@ -77,10 +77,11 @@
                 <div class="container-fluid ">
                 <div class="col-md-12 col-sm-12" style="padding: 20px 15px;">
                         <!--<p style="text-align:justify;color: #333;">KCC Paints Sdn Bhd is an overseas subsidiary of KCC Corporation, the largest paint and chemical company in Korea. In Malaysia, we are a leading paints and coatings manufacturer with key business areas in decorative paints, architectural finishes, marine and protective coatings, polymeric floor systems and functional coatings.</p>-->
-                        <p style="color: #333;"><b>Công Ty TNHH Xây Dựng Và Thương Mại HANAM</b></p>
-                        <p style="color: #333;"><b>Địa chỉ</b> : 22 Bùi Thị Xuân, Phường 2, Đông Hà, Quảng Trị</p>
+                        <p style="color: #333;"><b>Công Ty TNHH MTV HANAM ATT</b></p>
+                        <p style="color: #333;"><b>Địa chỉ</b> : An Lợi, Triệu Độ, Triệu Phong, Quảng Trị</p>
                         <p style="color: #333;"><b>Hotline</b> : 0973733012 (Mr.Nam)</p>
-                        <p style="color: #333;"><b>Email</b> : chongtham.sonnuoc.epoxy.hanam@gmail.com</p>
+                        <p style="color: #333;"><b>Email</b> : hanam.att.qt@gmail.com</p>
+                        <p style="color: #333;"><b>MST</b> : 3200699302</p>
                     </div>                                              
                 </div>
             </div>
