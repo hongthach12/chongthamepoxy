@@ -201,9 +201,9 @@
                 <div class="container">
                     <div class="logo">
                         <a href="/">
-                            <img class="logo-light" src="images/logo.jpg" alt="">
+                            <img class="logo-light" src="images/hanam_att_logo.jpg" alt="">
                             <!--style="-webkit-filter: drop-shadow(1px 1px 1px #000); filter: drop-shadow(1px 1px 1px #000);"-->
-                            <img class="logo-dark" src="images/logo.jpg" alt="">
+                            <img class="logo-dark" src="images/hanam_att_logo.jpg" alt="">
                             <!--style="-webkit-filter: drop-shadow(1px 1px 1px #000); filter: drop-shadow(1px 1px 1px #000);"-->
                         </a>
                     </div>
@@ -272,7 +272,7 @@
                         <div class="col-md-12">
                             <div class="widget">
                                 <figure class="footer-logo mb-15">
-                                    <img src="images/logo.jpg" alt="" style="width: 120px;">
+                                    <img src="images/hanam_att_logo.jpg" alt="" style="width: 120px;">
                                 </figure>
                                 <div class="textwidget">
                                     <p style="color: #333;font-size:12px;">Uy Tín - Chất Lượng - Ưu Việt -  Tận Tâm</p>
